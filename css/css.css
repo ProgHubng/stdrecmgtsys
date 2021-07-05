@@ -1,0 +1,50 @@
+solid-form body a{
+	transition: 0.5s ease-out all;
+	-webkit-transition: 0.5s ease-out all;
+	-o-transition: 0.5s ease-out all;
+	-moz-transition: 0.5s ease-out all;
+	-ms-transition: 0.5s ease-out all;
+
+}
+#section-body{
+			background-image: url('images/BigPic.jpg' );
+			background-size: 100%;
+		}	
+i.red{
+	color: #f00;
+}
+.img-responsive > img{
+	width: 50px;
+	height: 50px;
+	position: relative;
+	top: -23px;
+	border-radius: 50%;
+}
+label{
+	font-size: 12px;
+}
+input[type="text"].form-control,input[solid-formtype="email"].form-control,textarea.form-control{
+	width: 100%;
+	display: block;
+	min-height: 45px;
+	border-radius: 4px;
+}
+select.form-control-select{
+	width: 100%;
+	display: block;
+	min-height: 45px;
+	border-radius: 4px;
+}
+.footpara{
+	text-align: center;
+	color: #e6e6e6;
+	background-color: #3C0607;
+	height: 50px;
+	padding: 20px;
+	padding-top: auto;
+	padding-bottom: auto;
+	font-size:10px;
+    font-family:Georgia, "Times New Roman", Times, serif;
+    font-size: 12px;
+	font-weight: bold;
+}
